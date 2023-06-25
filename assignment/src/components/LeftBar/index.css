@@ -1,0 +1,87 @@
+.sidebarContainer1 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 20px;
+  height: 100vh;
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebarContainer1 {
+    display: none;
+  }
+}
+.headerSide1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.initial1 {
+  background-color:whitesmoke;
+  border-radius: 150px;
+  margin-right: 20px;
+  padding: 20px;
+  font-weight: bold;
+  color:black;
+  font-size: 18px;
+  margin-left:18px;
+}
+.nameDesignation1 {
+  display: flex;
+  flex-direction: column;
+}
+.name1 {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color:whitesmoke;
+}
+.designation1 {
+  font-size: 16px;
+  color: slategray;
+  margin-top: 0px;
+}
+.conversationsCont1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+.conversation1 {
+  font-size: 18px;
+  font-weight: 500;
+  color:white;
+}
+.plus1 {
+  color:white;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.officeCont1 {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+.hash1{
+  background-color:transparent;
+  border-radius: 10px;
+  color:white;
+  margin-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.officeName1{
+  font-weight: 400;
+  color:white;
+}
+.introduction1{
+  background-color: #4f6ee0;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+.intro1{
+  color: white;
+}

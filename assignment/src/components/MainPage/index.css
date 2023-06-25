@@ -1,0 +1,95 @@
+.chatSection1{
+  background-image:url("https://images.pexels.com/photos/7130538/pexels-photo-7130538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 75%;
+  background-size:cover;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-repeat:no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .chatSection1 {
+    width: 100%;
+  }
+}
+
+.headerSection1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: static;
+}
+.countSection1 {
+  display: flex;
+  align-items: center;
+}
+.headIntro1 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.desc1 {
+  font-size: 16px;
+  color: slategray;
+  margin-top: 0px;
+}
+.count1 {
+  margin-right: 20px;
+  font-size: 16px;
+}
+.peopleIcon1 {
+  width: 24px;
+  height: 24px;
+}
+.hrLine1 {
+  color: grey;
+  width: 100%;
+}
+.msgContainer1 {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  border: 2px solid slategray;
+  width: 800px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: transparent;
+  justify-content: space-between;
+}
+.msgInput1 {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 30px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .msgContainer1 {
+    width: 400px;
+  }
+}
+
+.userEnterMsgContainer1 {
+  position: absolute;
+  bottom: 80px;
+  list-style-type: none;
+  margin-left: 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-y:auto;
+  width:100%;
+}
+.emojiButton1 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.emoji1 {
+  width: 30px;
+  height: 30px;
+}

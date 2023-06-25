@@ -1,0 +1,87 @@
+.userMsgContainer1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100px;
+}
+.content1 {
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+  align-items: center;
+}
+
+.initialUser1 {
+  border-radius: 35px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  color:white;
+}
+.lightpink {
+  background-color:rgb(189, 61, 80);
+}
+.lightyellow {
+  background-color:rgb(177, 177, 94);
+}
+.lightred {
+  background-color:rgb(62, 168, 163);
+}
+.lightblue {
+  background-color:rgb(62, 135, 160);
+}
+.lightgreen {
+  background-color:rgb(62, 159, 62);
+}
+.userName1 {
+  margin-left: 10px;
+  color:#24a0ed;
+}
+.time1 {
+  margin-left: 20px;
+  color: slategray;
+  font-size: 14px;
+  font-weight: 500;
+}
+.msgContent1 {
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 50px;
+  margin-top: 0px;
+  max-width: 700px;
+  margin-right: 10px;
+}
+.message1 {
+  margin: 15px;
+  font-family:sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.msgLikeContainer1 {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.likeIcon1 {
+  color:black;
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+}
+.likeBtn1 {
+  border: none;
+  background-color: transparent;
+}
+.likeCount1 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 4px;
+}
